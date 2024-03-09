@@ -1,0 +1,8 @@
+<fieldset class="admin__fieldset payment-method" id="payment_form_<?= $block->escapeHtml($block->getMethodCode()) ?>" style="display: none">
+    <div class="admin__field _required">
+        <label for="tmo_costcentercode" class="admin__field-label"><span><?= $block->escapeHtml(__('Costcenter Code')) ?></span></label>
+        <div class="admin__field-control">
+            <input type="text" id="tmo_costcentercode" name="payment[tmo_costcentercode]" title="<?= $block->escapeHtml(__("Costcenter Code")) ?>" class="required-entry admin__control-text" value="<?= /* @noEscape */ $block->getInfoData('tmo_costcentercode') ?>" />
+        </div>
+    </div>
+</fieldset>

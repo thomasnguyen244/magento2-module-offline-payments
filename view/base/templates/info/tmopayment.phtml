@@ -1,0 +1,7 @@
+<div class="payment-method purchase order">
+    <div class="title"><?= $block->escapeHtml($block->getMethod()->getTitle()) ?></div>
+    <div class="content">
+        <strong><?= $block->escapeHtml(__('Costcenter Code')) ?></strong>
+        <span class="number"><?= $block->escapeHtml($block->getInfo()->getData('tmo_costcentercode')) ?></span>
+    </div>
+</div>

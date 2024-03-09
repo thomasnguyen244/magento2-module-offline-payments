@@ -1,0 +1,11 @@
+<?php
+$methodCode = $block->escapeHtml($block->getMethodCode());
+?>
+<fieldset class="fieldset items <?= /* @noEscape */ $methodCode ?>" id="payment_form_<?= /* @noEscape */ $methodCode ?>" style="display: none">
+    <div class="field number required">
+        <label for="tmo_costcentercode" class="label"><span><?= $block->escapeHtml(__('Costcenter Code')) ?></span></label>
+        <div class="control">
+            <input type="text" id="tmo_costcentercode" name="payment[additional_data][tmo_costcentercode]" title="<?= $block->escapeHtml(__('Assistant ID')) ?>" class="input-text required-entry" value="<?= $block->escapeHtml($block->getInfoData('additional_data')['additional_data']) ?>" />
+        </div>
+    </div>
+</fieldset>
