@@ -1,5 +1,5 @@
 # Magento 2 Offline Payments
-``thomas/module-offline-payments``
+``workwiththomas/module-offline-payments``
 
 Magento 2 Offline Payments
 

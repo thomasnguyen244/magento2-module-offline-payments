@@ -1,11 +1,11 @@
 <?xml version="1.0" ?>
 <schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
     <table name="quote_payment" resource="default" engine="innodb" comment="quote_payment Table">
-		<column xsi:type="varchar" name="tmo_costcentercode" lenght="255" nullable="true" comment="added by thomas for offline payment"/>
+		<column xsi:type="varchar" name="tmo_costcentercode" length="255" nullable="true" comment="added by thomas for offline payment"/>
 	</table>
 
     <table name="sales_order_payment" resource="default" engine="innodb" comment="sales_order_payment Table">
-		<column xsi:type="varchar" name="tmo_costcentercode" lenght="255" nullable="true" comment="added by thomas for offline payment"/>
+		<column xsi:type="varchar" name="tmo_costcentercode" length="255" nullable="true" comment="added by thomas for offline payment"/>
 	</table>
 
 </schema>
