@@ -6,7 +6,7 @@ define(
             validate: function () {
                 let isValid = false;
 
-                let maxLenghtConfig = window.checkoutConfig.bs_code_length;
+                let maxLenghtConfig = window.checkoutConfig.tmo_code_length;
                 let consecutiveCharsConfig = window.checkoutConfig.consecutive_chars;
 
                 let tmoCostcentercode = $('#tmo_costcentercode').val();
