@@ -14,3 +14,5 @@ Title,Title
 "Maximum Order Total","Maximum Order Total"
 "Max Length","Max Length"
 "Consecutive Characters","Consecutive Characters"
+"Max length o Costcenter Code's characters. Example:  12","Max length o Costcenter Code's characters. Example:  12"
+"Start characters for Costcenter Code, the code we will use to verify valid costcenter code. Example: TMO1-","Start characters for Costcenter Code, the code we will use to verify valid costcenter code. Example: TMO1-"

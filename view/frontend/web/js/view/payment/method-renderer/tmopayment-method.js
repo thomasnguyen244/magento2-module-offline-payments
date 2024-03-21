@@ -31,6 +31,10 @@ define([
             };
         },
 
+        getMaxLength: function () {
+            return typeof(window.checkoutConfig.tmo_code_length) != undefined && window.checkoutConfig.tmo_code_length != "" && window.checkoutConfig.tmo_code_length != 0 ? window.checkoutConfig.tmo_code_length : 10;
+        },
+
         /**
          * @return {jQuery}
          */

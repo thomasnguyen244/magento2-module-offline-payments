@@ -36,9 +36,11 @@
                 </field>
                 <field id="code_length" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Max Length</label>
+                    <comment><![CDATA[Max length o Costcenter Code's characters. Example:  12]]></comment>
                 </field>
                 <field id="consecutive_characters" translate="label" type="text" sortOrder="101" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Consecutive Characters</label>
+                    <comment><![CDATA[Start characters for Costcenter Code, the code we will use to verify valid costcenter code. Example: TMO1-]]></comment>
                 </field>
                 <field id="model"></field>
             </group>
